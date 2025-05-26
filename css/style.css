@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "variables.css";
+
+.card {
+  background-color: var(--colorNeutral100);
+  border-color: var(--colorTertiary200);
+  border-radius: var(--borderRadiusMd);
+  border-width: var(--borderWidthMd);
+  overflow: hidden;
+  box-shadow: var(--effectNone) var(--effectSm) var(--effectMd)
+    var(--colorTertiary60020);
+  height: auto;
+  width: 400px;
+}
+
+.card-body {
+  padding: var(--spacingLg) var(--spacingLg);
+}
+
+.card-text {
+  color: var(--colorTertiary500);
+  font-family: var(--fontFamilySecondary);
+  font-size: var(--fontSizeSm);
+  font-weight: var(--fontWeightSemiBold);
+  line-height: var(--fontLineHeightSm);
+  margin-bottom: var(--spacingSm);
+}
+
+.card-title {
+  color: var(--colorNeutral900);
+  font-family: var(--fontFamilyPrimary);
+  font-size: var(--fontSizeLg);
+  font-weight: var(--fontWeightBold);
+  line-height: var(--fontLineHeightLg);
+  margin-bottom: var(--spacingMd);
+}
+
+.btn {
+  padding: var(--spacingSm) var(--spacingXl);
+  border-radius: var(--borderRadiusXs);
+  font-family: var(--fontFamilySecondary);
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightSm);
+  font-weight: var(--fontWeightSemiBold);
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--colorPrimary600);
+  color: var(--colorNeutral100);
+}
+.btn-primary:hover {
+  background-color: var(--colorPrimary500);
+}
+.btn-secondary {
+  background-color: var(--colorSecondary500);
+  color: var(--colorNeutral100);
+}
+.img {
+  width: 50%;
+  min-height: 50%;
+}
